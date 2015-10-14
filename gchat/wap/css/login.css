@@ -1,0 +1,41 @@
+* {
+	font-family: '黑体';
+	border-radius: 0!important;
+}
+.head {
+	height: 60px;
+	text-align: center;
+	background-color: #CE0F31;
+	margin-bottom: 15%;
+}
+.head img {
+	margin-top: 15px;
+	height: 30px;
+}
+.mybtn {
+	font-size: 120%;
+	line-height: 250%;
+}
+.mybtn.btn-danger {
+	margin-bottom: 5%;
+	background-color: #DC0032;
+}
+.main {
+	display: none;
+	margin: 0 auto;
+	width: 80%;
+}
+form .phone-input {
+	margin-top: 15%;
+	margin-bottom: 5%;
+}
+form .check-input {
+	float: left;
+	width: 60%;
+	margin-bottom: 20%;
+}
+#btn-check {
+	padding-top: 1px;
+	padding-bottom: 1px;
+	float: right;
+}

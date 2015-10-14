@@ -1,0 +1,90 @@
+.navbar {
+	margin-bottom: 5px;
+}
+
+.bar {
+	background-color: #E6E6E6;
+}
+
+.middle {
+	color: #DC0032;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 auto;
+	width: 800px;
+}
+
+.middle p {
+	margin-bottom: 0;
+}
+
+.search-result {
+	margin-top: 30px;
+}
+
+.result {
+	color: #DC0032;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+.result-box {
+	padding-left: 0;
+}
+
+.tips img {
+	width: 138px;
+	margin-bottom: 20px;
+}
+
+.tips .title {
+	color: #DC0032;
+}
+
+.search-result .panel {
+	border-radius: 0!important;
+}
+
+.result-box .panel {
+	margin-top: 10px;
+	max-height: 550px;
+	overflow-y: scroll;
+	background-color: #F3F3F3;
+}
+
+.btn-warning {
+	float: right;
+	width: 169px;
+	margin-right: 16px;
+	margin-bottom: 10px;
+	border-radius: 0;
+}
+
+.route {
+	background-color: #FFF;
+	display: block;
+	border: 2px solid #DC0032;
+	padding: 20px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+
+span.red {
+	color: #DC0032;
+	font-weight: bold;
+}
+
+.btn-danger {
+	background-color: #DC0032;
+}
+
+.route .btn-danger {
+	float: right;
+	border-radius: 0;
+}
+
+.modal-content, .modal-content .btn {
+	border-radius: 0;
+}

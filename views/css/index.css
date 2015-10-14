@@ -1,0 +1,19 @@
+.main-index {
+	height: 100%;
+	background-image: url('../../static/img/index-bg.jpg');
+	text-align: center;
+}
+
+.main-index .circle-btn {
+	position: absolute;
+	margin: 5%;
+	z-index: 99;
+}
+
+.index-land {
+	margin-top: 5%;
+}
+
+.navbar {
+	margin: 0;
+}

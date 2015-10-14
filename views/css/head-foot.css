@@ -1,0 +1,79 @@
+@font-face {
+	font-family: LTHCJ;
+	src: url('../../static/font/LTHCJ.TTF');
+
+	font-family: LTHJ;
+	src: url('../../static/font/LTHJ.TTF');
+}
+
+* {
+	/*font-family: LTHJ;*/
+	font-family: 黑体;
+}
+
+.index-header .navbar{
+	background-color: #DC0032;
+	border: 0;
+	border-radius: 0;
+	height: 100px;
+}
+
+.index-header #navbar-item {
+	margin: 0 auto;
+	margin-top: 20px;
+	max-width: 800px;
+}
+
+.index-header .nav-menu-item {
+	text-align: center;
+	width: 100px;
+	padding: 30px 20px 30px 20px;
+	color: #FFF!important;
+}
+
+.index-header .hover,
+.index-header .active  {
+	margin: 0 14px 0 14px;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	width: 72px;
+	height: 72px;
+	border-radius: 72px;
+	background-color: #FFF!important;
+	color: #DC0032!important;
+/*			filter:alpha(opacity=80);
+	-moz-opacity:0.8;
+	opacity: 0.8;*/
+}
+
+.index-header .navbar .company-name{
+	padding: 0;
+}
+
+.index-header .navbar .company-name img{
+	padding-left: 20px; 
+	height: 60px;
+}
+
+footer {
+	height: 80px;
+	text-align: center;
+	padding-top: 20px;
+	border-top: 1px solid #DDD;
+}
+
+footer .company-info {
+	font-size: 16px;
+	color: #999;
+}
+
+section.main {
+	margin: 0 auto;
+	max-width: 800px;
+	margin-bottom: 5%;
+}
+
+section #order-panel{
+	min-height: 520px;
+}

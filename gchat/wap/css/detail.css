@@ -1,0 +1,54 @@
+* {
+	font-family: '黑体';
+	border-radius: 0!important;
+}
+.head {
+	height: 60px;
+	text-align: center;
+	background-color: #CE0F31;
+	margin-bottom: 5%;
+}
+.head span{
+	position: absolute;
+	float: left;
+	color: #FFF;
+	font-size: 20px;
+	top: 20px;
+	left: 10px;
+}
+.head img {
+	margin-top: 15px;
+	height: 30px;
+}
+.tips {
+	font-size: 15px;
+}
+.main {
+	margin: 0 auto;
+	width: 90%;
+}
+.main .detail {
+	display: block;
+	border: 1px solid #777;
+	padding: 10px;
+}
+.main .detail #head {
+	font-size: 20px;
+	font-weight: bold;
+}
+.main .detail .stop {
+	font-size: 15px;
+}
+.mybtn {
+	font-size: 120%;
+	line-height: 250%;
+}
+.mybtn.btn-danger {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	background-color: #DC0032;
+}
+form .book-input {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

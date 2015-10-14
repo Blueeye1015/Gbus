@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>吉巴士免费拿话费</title>
+</head>
+<style>
+	img {
+		width: 100%;
+		height: auto;
+	}
+</style>
+<body>
+<img src="/static/img/huodong.jpg" alt=""/>
+<script src="/lib/leancloud-javascript-sdk/dist/av-core-mini.js"></script>
+<script>
+	var leanconfig = {
+		APPID: 'q0esn38jbmkacw7hgt6bcevpplubg6lfffnz2sfmlhjz0gz1',
+		APPKEY: 'kn4ys1veebhjzyp7jmh9njsua0qir2jyjxyt3j2nf7h43i4l',
+	}
+	AV.initialize(leanconfig.APPID, leanconfig.APPKEY);
+	var data = AV.Object.extend("dataCount")
+	var query = new AV.Query(data)
+	query.get('55a3a3e1e4b06d11d38bcb5a', {
+		success: function (data) {
+			data.set("clickNum", data.attributes.clickNum + 1)
+			data.save()
+		},
+		error: function (e) {
+			alert(e)
+		}
+	})
+</script>
+</body>
+</html>

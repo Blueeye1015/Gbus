@@ -1,0 +1,76 @@
+section.main.text-field {
+	padding-top: 70px;
+}
+
+section.main .image-frame img {
+	padding-bottom: 10px;
+	max-width: 800px;
+	margin: 0 auto;
+	display: block;
+}
+
+section.main .image-frame .input-area {
+	position: absolute;
+	left: 35%;
+	top: 400px;
+	z-index: 99;
+}
+
+section.main .image-frame .input-area .main-input {
+	padding-left: 10px;
+	height: 40px;
+	width: 200px;
+}
+
+section.main .image-frame .input-area #main-input-btn {
+	border-radius: 0;
+	height: 40px;
+	background-color: #DC0032;
+}
+
+section.main #main-text{
+	background: -webkit-linear-gradient(top,#EEE,#FFF);
+	padding: 20px 5% 5% 5%;
+}
+
+section.main #main-text #left-icon {
+	max-width: 300px;
+	margin-top: 20px;
+	float: left;
+}
+
+section.main #main-text #right-text {
+	max-width: 420px;
+	padding-left: 50px;
+	float: left;
+}
+
+section.main .index-box{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 400px;
+}
+
+section.main .index-box h3{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+section.main .box-icon {
+	display: block;
+	max-width: 120px;
+	margin: 0 auto;
+}
+
+section.main .box-img{
+	max-width: 400px;
+}
+
+section.main .text{
+	padding:10px 5% 0 5%;
+	color: #999;
+}
+
+/*section.main .text h2{
+	text-align: center;
+}*/

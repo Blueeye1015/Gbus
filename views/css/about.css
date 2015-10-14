@@ -1,0 +1,96 @@
+.kv {
+	background-size: contain;
+	background-image: url('../../static/img/about-kv.jpg');
+	margin-bottom: 5px;
+}
+
+.about-bar {
+	background-size: contain;
+	background-image: url('../../static/img/about-bar.jpg');
+	height: 164px;
+	margin-top: 15px;
+}
+
+#our-team {
+	font-size: 80px;
+	color: #DC0032;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#change-life {
+	font-size: 40px;
+	margin-top: 10px;
+	color: #FFF;
+}
+
+#change-life-en {
+	margin-top: 25px;
+	color: #FFF;
+}
+
+.gray {
+	background-color: #D0D0D0;
+}
+
+.red {
+	color: #DC0032;
+}
+
+.story-title {
+	margin-top: 10px;
+}
+
+.story {
+	/*margin-top: 25px;*/
+	font-size: 15px;
+}
+
+section.main .index-box {
+	display: inline-block;
+	vertical-align: top;
+	height: 400px;
+	width: 400px;
+}
+
+section.main .index-box.qa {
+	color: #94979C;
+	padding-top: 120px;
+	text-align: center;
+	background-color: #F8F8F8;
+}
+
+section.main .index-box.about-us {
+	padding: 15px;
+	color: #94979C;
+	background-color: #FFF;
+}
+
+section.main .index-box.qa .question {
+	font-size: 26px;
+}
+
+section.main .index-box.qa .contact {
+	font-size: 16px;
+}
+
+section.main .box-img{
+	max-width: 400px;
+}
+
+.cooperate .col-md-4 {
+	padding-top: 30px;
+}
+
+.cooperate .cop-title{
+	color: #D9A549;
+	font-size: 25px;
+}
+
+.navbar {
+	margin-bottom: 5px;
+}
+
+.main.cop {
+	margin-bottom: 200px;
+}

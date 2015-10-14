@@ -1,0 +1,32 @@
+* {
+	font-family: '黑体';
+	border-radius: 0!important;
+}
+.head {
+	height: 60px;
+	text-align: center;
+	background-color: #CE0F31;
+	margin-bottom: 15%;
+}
+.head img {
+	margin-top: 15px;
+	height: 30px;
+}
+.mybtn {
+	font-size: 120%;
+	line-height: 250%;
+}
+.mybtn.btn-danger {
+	margin-top: 20%;
+	margin-bottom: 5%;
+	background-color: #DC0032;
+}
+.main {
+	margin: 0 auto;
+	width: 80%;
+}
+form .apply-input {
+	height: 200%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}

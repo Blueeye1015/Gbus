@@ -1,0 +1,71 @@
+* {
+	font-family: '黑体';
+	border-radius: 0!important;
+}
+.form-group {
+	display: inline;
+}
+.search-input {
+	top: 2px;
+	width: 76%;
+}
+.btn-search {
+	position: relative;
+	left: 2px;
+	top: -3px;
+}
+#hot-line {
+	margin-top: 15px;
+	color: #DC0032;
+	font-weight: bold;
+}
+.head {
+	height: 60px;
+	text-align: center;
+	background-color: #CE0F31;
+	margin-bottom: 5%;
+}
+.head span{
+	position: absolute;
+	float: right;
+	color: #FFF;
+	font-size: 45px;
+	right: 20px;
+}
+.head img {
+	margin-top: 15px;
+	height: 30px;
+}
+.main {
+	margin: 0 auto;
+	width: 90%;
+}
+.main .route {
+	display: block;
+	border: 1px solid #777;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.main .btn-danger {
+	background-color: #DC0032;
+	margin-bottom: 20px;
+}
+.main .route .red {
+	color: #DC0032;
+}
+.main .route .book {
+	padding: 2px;
+	margin-right: 5px;
+	border: 1px solid #DC0032;
+	float: right;
+	color: #DC0032;
+}
+.main .tips {
+	font-size: 10px;
+	color: #AAA;
+}
+.main .route p {
+	font-size: 15px;
+	color: #777;
+	margin-bottom: 5px;
+}
